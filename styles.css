@@ -1,12 +1,12 @@
 header{
-    border:solid red;
+    /* border:solid red; */
     color: #F9FAF9;
     background-color:#1F2937 ;
     font-size: 18px;
 }
 
 .footer{
-    border:solid red;
+    /* border:solid red; */
     display: flex;
     justify-content: center;
     align-content: center;
@@ -17,7 +17,7 @@ header{
 }
 
 .container{
-    border:red solid;
+    /* border:red solid; */
     display: flex;
     justify-content: space-between;
 }
@@ -32,14 +32,15 @@ header{
 
 a{
     text-decoration: none;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding:10px;
 }
 
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    border:solid;
+    /* border:solid; */
 }
 
 footer{
@@ -52,4 +53,13 @@ html, body{
     height 100%;
     overflow-x: hidden;
 
+}
+
+
+.box{
+    border:solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex:1;
 }
