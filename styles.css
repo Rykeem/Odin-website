@@ -49,15 +49,15 @@ footer{
 
 
 html, body{
-    margin:0;
-    height 100%;
+    /* margin:; */
+    height: 100%;
     overflow-x: hidden;
 
 }
 
 
 .box{
-    border:solid blue;
+    /* border:solid blue; */
     display: flex;
     /* justify-content: */
     align-items: stretch;
@@ -79,7 +79,7 @@ border-color: #1F2937;
 
 
 .one{
-    border:solid red;
+    /* border:solid red; */
     background-color: #1F2937;
 }
 
@@ -90,11 +90,12 @@ border-color: #1F2937;
 
 
 .two{
-    border:solid red;
+    /* border:solid red; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding:20px;
 
     height:100%;
 }
@@ -113,3 +114,29 @@ border-color: #1F2937;
     position: relative;
     right:-200px
 }
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:red; */
+    flex-grow:1;
+}
+
+.end{
+    background-color:#3882F6 ;
+    /* flex-grow:; */
+    height:90px;
+    width:500px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+/* 
+.box-box{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow:1;
+    border:solid red;
+} */
