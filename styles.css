@@ -59,7 +59,57 @@ html, body{
 .box{
     border:solid blue;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: */
     align-items: stretch;
-    flex:1;
+    flex-direction: column;
+     flex:1; 
+}
+
+img{
+    max-height: 100px;
+    max-width: 200px;
+}
+
+#top{
+background-color: #3882f6; 
+color:white;
+border-radius: 5px;
+border-color: #1F2937;
+}
+
+
+.one{
+    border:solid red;
+    background-color: #1F2937;
+}
+
+.one h1{
+    color:white;
+    font-weight: 900;
+}
+
+
+.two{
+    border:solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height:100%;
+}
+
+
+
+.three{
+    background-color: #e5e7eb;
+    font-family: light italic;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quote-end{
+    position: relative;
+    right:-200px
 }
